@@ -34,6 +34,7 @@ runs:
       run: |
         sudo apt-get update -qy
         sudo apt-get install -y jq
+      shell: bash
 
     - name: Run Security Scanner
       shell: bash
