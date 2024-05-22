@@ -1,6 +1,8 @@
 name: 'Cyber Chief Security Scanner'
 description: 'A security scanner action'
-
+branding:
+  icon: 'shield'
+  color: 'green'
 inputs:
   target_url:
     description: 'Cyber Chief Automated Test URL'
